@@ -2,7 +2,7 @@ import fs from 'fs';
 import Stream from 'stream';
 import unzip from 'unzipper';
 import xpath from 'xpath';
-import XMLDOM from 'xmldom';
+import XMLDOM from '@xmldom/xmldom';
 
 const ns = { a: 'http://schemas.openxmlformats.org/spreadsheetml/2006/main' };
 const select = xpath.useNamespaces(ns);
